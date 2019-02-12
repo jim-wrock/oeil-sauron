@@ -1,0 +1,38 @@
+
+
+.col-1 {
+	/*margin: 1px 1px 1px 1px;   --> marche pas?*/
+	border: 1px solid white;
+}
+
+.my-container{
+	width: 50%;
+}
+
+
+@media (max-width: 960px) {
+    .my-container {
+		width: 100%;
+    }
+}
+				
+.gris {
+background-color: #333333;
+padding-bottom:8%;
+}
+
+.orange {
+background-color: #FF7F2A;
+padding-bottom:8%;
+}
+
+.jaune {
+background-color: #FFCC00;
+padding-bottom:8%;
+}
+
+.noir {
+background-color: #000000;
+padding-bottom:8%;
+}
+	
